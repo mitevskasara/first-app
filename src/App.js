@@ -1,17 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 import Button from './components/button';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Button />
-      </header>
+      <p>
+        Example of code-sharing between different Git repositories
+      </p>
+      <Button />
     </div>
   );
 }
